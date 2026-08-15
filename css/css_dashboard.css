@@ -1,0 +1,192 @@
+.site-footer {
+  background-color: rgb(61, 64, 91);
+  color: #ffffff;
+  padding: 50px 0 20px;
+}
+
+.site-footer h5 {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+/* Link Footer */
+.site-footer .btn-link {
+  display: block;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: left;
+  color: #cccccc;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.site-footer .btn-link::before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--custom-btn-bg-hover-color);
+  margin-right: 10px;
+}
+
+.site-footer .btn-link:hover {
+  color: var(--custom-btn-bg-hover-color);
+  letter-spacing: 1px;
+}
+
+/* Input Newsletter */
+.site-footer .form-control {
+  border: 1px solid #777;
+  background: transparent;
+  color: white;
+}
+
+.site-footer .form-control::placeholder {
+  color: #cccccc;
+}
+
+/* Social Button */
+.site-footer .btn-outline-light {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.site-footer .btn-outline-light:hover {
+  background-color: var(--custom-btn-bg-hover-color);
+  border-color: var(--custom-btn-bg-hover-color);
+}
+
+/* Copyright */
+.site-footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.site-footer .copyright a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-footer .copyright a:hover {
+  color: var(--custom-btn-bg-hover-color);
+}
+.site-footer a {
+  transition: 0.3s;
+}
+
+.site-footer a:hover {
+  color: var(--custom-btn-bg-hover-color) !important;
+  letter-spacing: 1px;
+}
+
+.site-footer * {
+  color: white;
+}
+
+.site-footer p {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.site-footer p i {
+  min-width: 20px;
+  margin-top: 4px;
+}
+
+/* Gaya Tombol Pagination */
+.pagination .page-link {
+  border: none;
+  color: #717275; /* Warna default */
+  margin: 0 5px;
+  border-radius: 50% !important; /* Biar bulat */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--custom-btn-bg-color); /* Hijau/Kuning Tiya */
+  border-color: var(--custom-btn-bg-color);
+  color: white;
+}
+
+.pagination .page-link:hover {
+  background-color: var(--custom-btn-bg-hover-color);
+  color: white;
+}
+
+.events-section {
+  background-color: white !important;
+}
+
+.events-section h2 {
+  color: black;
+}
+
+.custom-block {
+  background: #47546a;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.custom-block,
+.custom-block * {
+  color: #ffffff !important;
+}
+.custom-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.custom-block-image {
+  border-radius: 15px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-block-info {
+  padding: 10px 15px;
+}
+
+.events-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(61, 64, 91);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.events-title:hover {
+  color: var(--custom-btn-bg-hover-color);
+}
+
+.custom-block-span {
+  font-weight: 600;
+  margin-right: -55px;
+  color: rgb(61, 64, 91);
+}
+
+.badge.bg-secondary {
+  background-color: var(--custom-btn-bg-hover-color) !important;
+}
+
+.events-section {
+  /* padding-top: 120px !important; */
+  padding-bottom: 0px !important;
+}
+#searchInput,
+#sortSelect {
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  min-height: 50px;
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Big Data Haltim</title>
+
+    <!-- CSS FILES -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/template.css" rel="stylesheet" />
+    <link href="css/css_dashboard.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="images/logo.png"
+              class="navbar-brand-image img-fluid"
+              alt=""
+            />
+            <span class="navbar-brand-text">
+              Big Data
+              <small>BPS Halmahera Timur</small>
+            </span>
+          </a>
+
+          <div class="d-lg-none ms-auto me-3">
+            <a
+              class="btn custom-btn custom-border-btn"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+              >Information</a
+            >
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="data.html">Dataset</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="publikasi.html"
+                  >Publication</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll active" href="dashboard.html"
+                  >Dashboard</a
+                >
+              </li>
+            </ul>
+
+            <div class="d-none d-lg-block ms-lg-3">
+              <a
+                class="btn custom-btn custom-border-btn"
+                data-bs-toggle="offcanvas"
+                href="#offcanvasExample"
+                role="button"
+                aria-controls="offcanvasExample"
+                >Information</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            About Dashboard
+          </h5>
+
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div class="offcanvas-body d-flex flex-column">
+          <!-- CONTENT -->
+          <div>
+            <h4 class="mb-3">Big Data Dashboard</h4>
+
+            <p>
+              On this page, users can access an interactive dashboard generated from the utilization of Big Data. This dashboard is designed to provide easily understandable information, thereby supporting regional exploration processes as well as data-driven decision making. Consequently, users can gain insights from the dashboard without needing to process the data independently.
+            </p>
+          </div>
+        </div>
+
+        <!-- SVG wave -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#3D405B"
+            fill-opacity="1"
+            d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <section
+        class="hero-section hero-50 d-flex justify-content-center align-items-center"
+        id="section_1"
+      >
+        <div class="section-overlay"></div>
+
+        <svg
+          viewBox="0 0 1962 178"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            fill="#3D405B"
+            d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#3D405B"
+            d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#3D405B"
+            d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#3D405B"
+            d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#3D405B"
+            d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#3D405B"
+            d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#3D405B"
+            d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z"
+            stroke-width="0"
+          ></path>
+        </svg>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h1 class="text-white mb-4 pb-2">Big Data Dashboard</h1>
+
+              <a href="#section_3" class="btn custom-btn smoothscroll me-3"
+                >Explore Dashboard</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <svg
+          viewBox="0 0 1962 178"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            fill="#ffffff"
+            d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#ffffff"
+            d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#ffffff"
+            d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#ffffff"
+            d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#ffffff"
+            d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#ffffff"
+            d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z"
+            stroke-width="0"
+          ></path>
+          <path
+            fill="#ffffff"
+            d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z"
+            stroke-width="0"
+          ></path>
+        </svg>
+      </section>
+
+      <section
+        class="events-section events-listing-section section-padding"
+        id="section_3"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-12">
+              <h2 class="mb-3">Published Dashboard</h2>
+
+              <div class="row mb-4">
+                <div class="col-md-8 mb-2">
+                  <input
+                    type="text"
+                    id="searchInput"
+                    class="form-control"
+                    placeholder="Search dashboard..."
+                  />
+                </div>
+
+                <div class="col-md-4">
+                  <select id="sortSelect" class="form-select">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="titleAsc">Title A-Z</option>
+                    <option value="titleDesc">Title Z-A</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Wadah Event -->
+            <div id="events-container" class="col-12"></div>
+
+            <!-- Wadah Navigasi Halaman (Hanya muncul jika > 5) -->
+            <div class="col-12 mt-4">
+              <nav aria-label="Page navigation">
+                <ul
+                  class="pagination justify-content-center"
+                  id="pagination-container"
+                ></ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <div id="footer-container"></div>
+    <script src="js/components.js"></script>
+
+    <!-- Accessibility Button -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/sienna-accessibility/dist/sienna-accessibility.umd.js"
+      async
+    ></script>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/js_dashboard.js"></script>
+  </body>
+</html>
